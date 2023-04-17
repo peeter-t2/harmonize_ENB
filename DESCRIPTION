@@ -1,7 +1,7 @@
-Package: ENB
-Title: What the Package Does (one line, title case)
+Package: harmonize_ENB
+Title: Harmonize Estonian National Bibliography data.
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: person("Peeter", "Tinits", email = "peeter.tinits@gmail.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 Depends: R (>= 3.4.4)
 License: What license is it under?
