@@ -15,18 +15,12 @@ The package offers 4 commands that harmonize the National Bibliography
 1) First, install the required package
 
 ```
-#Install package remotes, if needed. JupyterLab should have it.
-#install.packages("remotes")
-
-#Since the JypiterLab that we use does not have write-access to 
-#all the files, we specify a local folder for our packages.
-dir.create("R_pckg")
-remotes::install_github("peeter-t2/digar.txts",lib="~/R_pckg/",upgrade="never")
+remotes::install_github("peeter-t2/harmonize_ENB")
 ```
 
 2) Activate the package that was installed, use 
 ```
-library(digar.txts,lib.loc="~/R_pckg/")
+library(harmonize_ENB)
 ```
 
 3) Download the latest ENB file from the server and convert it to tidy format: 1) [Estonian books](https://data.digar.ee/erb/ERB_eestikeelne_raamat.zip), 2) [Books in other languages](https://data.digar.ee/erb/ERB_muukeelne_raamat.zip). First the marc21xml needs to be converted to a tsv file. This can be done via marctools and through converting it first to .mrc file and then to .tsv.
