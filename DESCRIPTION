@@ -1,4 +1,4 @@
-Package: harmonize_ENB
+Package: ENBtools
 Title: Harmonize Estonian National Bibliography data.
 Version: 0.0.0.9000
 Authors@R: person("Peeter", "Tinits", email = "peeter.tinits@gmail.com", role = c("aut", "cre"))
